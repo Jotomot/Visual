@@ -59,7 +59,7 @@ class MyClass
             sumOfDays += DateTime.DaysInMonth(yearOfBirth, MonthOfBirth);
             MonthOfBirth++;
         }
-        return sumOfDays - DayOfBirth;
+        return sumOfDays - DayOfBirth + 1;
     
     }
 
